@@ -163,7 +163,8 @@
     #   %n  progress value if set without any extra characters
     #   %%  Literal %
     # Markup is allowed
-    format = "󰟪 %a\n<b>󰋑 %s</b>\n%b"
+    format = "♡ %a ♡\n<b>♡ %s ♡</b>\n%b"
+
 
     # Alignment of message text.
     # Possible values are "left", "center" and "right".
@@ -444,22 +445,22 @@
 [urgency_critical]
     background = "#f5e0dc"
     foreground = "#1e1e2e"
-    frame_color = "#f38ba8"
+    frame_color = "#f38be9ff"
     icon = "~/.config/dunst/icons/critical.svg"
     timeout = 0
     # Icon for notifications with critical urgency, uncomment to enable
     #default_icon = /path/to/icon
 
 [urgency_low]
-    background = "#625CA4"
-    foreground = "#B168A2"
-    frame_color = "#B168A2"
-    icon = "~/.config/dunst/icons/arch.svg"
+    background = "#A4A9AC"
+    foreground = "#BCC1C4"
+    frame_color = "#BCC1C4"
+    icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10
 
 [urgency_normal]
-    background = "#271E58"
-    foreground = "#F4A9AC"
-    frame_color = "#F4A9AC"
-    icon = "~/.config/dunst/icons/arch.svg"
+    background = "#6B7174"
+    foreground = "#EDEDED"
+    frame_color = "#EDEDED"
+    icon = "~/.config/dunst/icons/hyprdots.svg"
     timeout = 10
